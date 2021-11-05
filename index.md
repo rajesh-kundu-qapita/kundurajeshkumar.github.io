@@ -6,11 +6,11 @@
 4. Architectural patterns (links to resources to learn more, CQRS, Event sourcing, OIDC/OAUTH2, etc) 
 5. External dependencies (S3 buckets for storage, Currency API, SignEasy API, etc) 
 6. Dev env setup 
-..1. Machine setup
-..2. Install Git 
-..3. Install Rider 
-..4. Install VSCode 
-..5. Create GitHub account with (*-qapita format, eg: numan-qapita) 
-7. Setup AWS CLI
-8. Clone Qapita repos 
+    * Machine setup
+    * Install Git 
+    * Install Rider 
+    * Install VSCode 
+    * Create GitHub account with (*-qapita format, eg: numan-qapita) 
+    * Setup AWS CLI
+    * Clone Qapita repos 
 9. Deployment view/detail 
