@@ -125,6 +125,8 @@ header a {
   line-height: 60px;
   background-color: #633ea5;
   color: #ffce5e;
+  font-size: .8rem;
+    
 }
 
 .footer .content {
@@ -135,6 +137,12 @@ header a {
   font-size: 14px;
   font-weight: 400;
   line-height: 30px;
+}
+
+.site-footer{
+  padding: 10px 2vw;
+  text-align: right;
+  color: #ffce5e;
 }
 
 .main-content {
