@@ -140,6 +140,14 @@ header a {
 .main-content {
   padding: 20px;
   margin-top: 70px;
+  max-width: 80rem;
+  
+  @include large {
+    max-width: 80rem;
+    padding: 2rem 6rem;
+    margin: 0 auto;
+    font-size: 1rem;
+  }
   
   h1, h2 {
    color: #000000;
