@@ -1,27 +1,53 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+<head>
     <meta charset="UTF-8">
 
-{% seo %}
+    {% seo %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style"
+        type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     {% include head-custom.html %}
-  </head>
-  <body>
-    <header class="page-header"  
-        role="banner">
-      <h1 class="project-name">Areg Sarkissian</h1>
-</header>
-<main id="content" class="main-content" role="main">
-       {{ content }}
-      <footer class="site-footer">
-        &copy; 2019 Areg Sarkissian
-      </footer>
-</main>
-  </body>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-sm-1">
+            <a href="/#">
+                <img src="data:image/svg+xml;base64,PHN2ZyBpZD0iT2JqZWN0cyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIxMzAgMTQ2IDE2MSAxNzgiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojNjMzZWE1O30uY2xzLTJ7ZmlsbDpub25lO30uY2xzLTN7Zm9udC1zaXplOjcycHg7ZmlsbDojZmZjZTVmO2ZvbnQtZmFtaWx5OlByb3hpbWFOb3ZhLUJvbGQsIFByb3hpbWEgTm92YTtmb250LXdlaWdodDo3MDA7bGV0dGVyLXNwYWNpbmc6MC4wMWVtO30uY2xzLTR7bGV0dGVyLXNwYWNpbmc6MC4wNGVtO30uY2xzLTV7bGV0dGVyLXNwYWNpbmc6LTAuMDJlbTt9LmNscy02e2xldHRlci1zcGFjaW5nOjAuMDRlbTt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmxvZ29fUWFwaXRhPC90aXRsZT48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0yNzguNjksMTkwLjg4bC02NC42MS0zNy4zM2E3LjQsNy40LDAsMCwwLTcuNDIsMGwtNjQuNiwzNy4zM2E3LjM5LDcuMzksMCwwLDAtMy43MSw2LjQxVjI3MmE3LjQxLDcuNDEsMCwwLDAsMy43MSw2LjQybDY0LjYsMzcuMzJhNy40LDcuNCwwLDAsMCw3LjQyLDBsMTUuMjktOC44M0wxODMuOTEsMjgwLjdsLTI2LjItMTUuMTJWMjA1LjA3TDE4My45MSwxOTBsMjYuMi0xNS4xMywyNi43NywxNS40NmgwbDI1LjYzLDE0Ljc5djYwLjUxbC0yNS42MywxNC43OWgwbC02LjgyLDMuOTQsMTkuMjIsMTEuMDUsMjkuNDEtMTdhNy40Miw3LjQyLDAsMCwwLDMuNy02LjQyVjE5Ny4yOUE3LjQsNy40LDAsMCwwLDI3OC42OSwxOTAuODhaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMjQyLjYzLDI1MS4xMlYyMTkuNTNhNS4xOCw1LjE4LDAsMCwwLTIuNTgtNC40N2wtMTMuNjgtNy45LTEzLjY4LTcuODlhNS4xMiw1LjEyLDAsMCwwLTUuMTYsMGwtMTMuNjgsNy44OS0xMy42OCw3LjlhNS4xNiw1LjE2LDAsMCwwLTIuNTgsNC40N3YzMS41OWE1LjE2LDUuMTYsMCwwLDAsMi41OCw0LjQ3bDEzLjY4LDcuOSwxMy43MSw3Ljg4YTUuMTcsNS4xNywwLDAsMCw1LjE2LDBsMTMuNjUtNy44OCwxMy42OC03LjlBNS4xOCw1LjE4LDAsMCwwLDI0Mi42MywyNTEuMTJaIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMTM4LjM1LDE5OC43OXY3MS42N2ExMCwxMCwwLDAsMCw1LDguNjZsNjIsMzUuODRhMTAsMTAsMCwwLDAsMTAsMGw2Mi0zNS44NGExMCwxMCwwLDAsMCw1LTguNjZWMTk4Ljc5YTEwLDEwLDAsMCwwLTUtOC42NmwtNjItMzUuODNhMTAsMTAsMCwwLDAtMTAsMGwtNjIsMzUuODNBMTAsMTAsMCwwLDAsMTM4LjM1LDE5OC43OVoiLz48L3N2Zz4KCjwhLS0gYmVsb3cgbWFya3VwIGlzIHRha2VuIGF3YXkgZnJvbSBiZWZvcmUgPC9zdmc+IHRhZy4gLS0+CjwhLS0gPHRleHQgY2xhc3M9ImNscy0zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMjAuMzkgMjU3LjA3KSI+UTx0c3BhbiBjbGFzcz0iY2xzLTQiIHg9IjU1LjczIiB5PSIwIj5BUEk8L3RzcGFuPjx0c3BhbiBjbGFzcz0iY2xzLTUiIHg9IjE3OC45OSIgeT0iMCI+VDwvdHNwYW4+PHRzcGFuIGNsYXNzPSJjbHMtNiIgeD0iMjE5LjM4IiB5PSIwIj5BPC90c3Bhbj48L3RleHQ+IC0tPg=="
+                    alt="Qapita" class="logo" />
+                <span class="qapita">qapita</span>
+            </a>
+        </div>
+        <div class="col-sm-8">
+            <div class="header-nav" *ngIf="currentUser">
+                <ul>
+                    <li>
+                        <a routerLink="report-designer">Report Designer</a>
+                    </li>
+                    <li>
+                        <a routerLink="report-viewer">Report Viewer</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <header class="page-header" role="banner">
+        <h1 class="project-name">Areg Sarkissian</h1>
+    </header>
+    <main id="content" class="main-content" role="main">
+        {{ content }}
+        <footer class="site-footer">
+            ©2021 Qapita Corp. All Rights Reserved
+        </footer>
+    </main>
+</body>
+
 </html>
