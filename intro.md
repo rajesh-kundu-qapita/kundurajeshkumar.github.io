@@ -1,15 +1,10 @@
 ## Product Videos
-Full Product Video : https://vimeo.com/561340916
-
-How to Add Stakeholders: https://vimeo.com/566564636
-
-Granting an Equity Award: https://vimeo.com/566560891
-
-Create an ESOP Plan: https://vimeo.com/566560780
-
-Employee View: https://vimeo.com/566566531
-
-Scenario Analysis: https://vimeo.com/566566000
+Full Product Video : <a href="https://vimeo.com/561340916">https://vimeo.com/561340916</a>
+How to Add Stakeholders: <a href="https://vimeo.com/566564636">https://vimeo.com/566564636</a>
+Granting an Equity Award: <a href="https://vimeo.com/566560891">https://vimeo.com/566560891</a>
+Create an ESOP Plan: <a href="https://vimeo.com/566560780">https://vimeo.com/566560780</a>
+Employee View: <a href="https://vimeo.com/566566531">https://vimeo.com/566566531</a>
+Scenario Analysis: <a href="https://vimeo.com/566566000">https://vimeo.com/566566000</a>
 
 ## Key terms
 - Equity
