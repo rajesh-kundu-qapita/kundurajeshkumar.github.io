@@ -1,6 +1,6 @@
 # Welcome to Qapita
 
-1. Intro to Qapita (Domain intro or link to nice material) 
+1. [Intro to Qapita](https://kundurajeshkumar.github.io/intro)
 2. Qapita product suite details (QapMap, QapFund, etc) 
 3. Tech Stack 
 4. Architectural patterns (links to resources to learn more, CQRS, Event sourcing, OIDC/OAUTH2, etc) 
