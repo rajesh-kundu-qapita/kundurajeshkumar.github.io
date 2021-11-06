@@ -9,8 +9,14 @@
   * [Clean Architecture (Youtube)](https://github.com/ardalis/CleanArchitecture)
   * [Clean Architecture with ASP.NET Core 3.0 • Jason Taylor • GOTO 2019](https://www.youtube.com/watch?v=dK4Yb6-LxAk)
   * [Clean Architecture with ASP.NET Core with Steve "Ardalis" Smith](https://www.youtube.com/watch?v=joNTQy-KXiU)
-5. DDD
-6. CQRS
-7. EventStore
-8. Mongodb
-9. nginx
+4. EventStore
+5. Mongodb
+6. nginx
+
+## Architectural Patterns
+
+1. DDD
+2. CQRS
+3. Event Sourcing
+4. OAuth 2.0/OpenID Connect
+ * [OAuth 2.0 and OpenID Connect (in plain English)](https://www.youtube.com/watch?v=996OiexHze0)
