@@ -13,6 +13,8 @@ $header-bg-color: #159957 !default;
 $header-bg-color-secondary: #155799 !default;
 
 // Text
+$primary: #6443a5;
+$primary-light: #997dd0;
 $section-headings-color: #159957 !default;
 $body-text-color: #606c71 !default;
 $body-link-color: #1e6bb8 !default;
@@ -26,9 +28,15 @@ body {
   color: $body-text-color;
 }
 
+a{
+  color: $primary;
+  text-decoration: none;
+}
+
 a:hover {
   outline: none !important;
   text-decoration: none !important;
+  color: $primary-light;
 }
 
 header {
@@ -185,7 +193,7 @@ header {
     min-width: 200px;
     width: 85px;
     padding-top: 30px;
-    background-color: #6443a5;
+    background-color: $primary;
     color: white;
     
     .side-navbar {
