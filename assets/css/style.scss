@@ -223,7 +223,7 @@ header {
         padding-left: 13px !important;
       }
 
-      .nav-list > li > a:hover, .nav>li>a:focus, .nav>li>a:hover {
+      .nav-list > li > a:hover, .nav>li>a:focus, .nav>li>a:hover, .nav-list > li.active > a {
         background-color: #4f2e91 !important;
       }
 
