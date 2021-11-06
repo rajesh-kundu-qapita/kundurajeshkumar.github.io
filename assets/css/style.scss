@@ -153,10 +153,22 @@ header {
     font-size: 1rem;
   }
   
-  h1, h2 {
-   color: #000000;
-   font-family: Roboto Slab,serif;
- }
+  h1, h2, h3 {
+    color: #000000;
+    font-family: Roboto Slab,serif;
+  }
+  
+  h1{
+    font-size: 1.7rem;
+  }
+  
+  h2{
+    font-size: 1.5rem;
+  }
+  
+  h3{
+    font-size: 1.3rem;
+  }
 }
 
 
