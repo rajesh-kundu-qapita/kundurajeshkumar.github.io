@@ -194,7 +194,7 @@ header {
     width: 85px;
     padding-top: 30px;
     background-color: $primary;
-    color: white;
+    color: #ffffff;
     
     .side-navbar {
       width: 100%;
@@ -204,7 +204,6 @@ header {
       }      
 
       .nav-list li a {
-        text-decoration: none;
         display: block;
         padding: 10px;
         cursor: pointer;
@@ -212,7 +211,7 @@ header {
       }
 
       .nav-list > li > a {
-        color: #ffffff;
+        color: #ffffff !important;
         font-size: 14px;
         padding-left: 13px !important;
       }
