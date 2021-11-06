@@ -12,11 +12,11 @@
 
 ## Technology Stack
 
-1. Front End
+1. **Front End**
   * React
   * Redux
   * [Ant Design](https://ant.design/)
-2. Backend
+2. **Backend**
   * .Net Core
   * Mongodb
   * EventStore
