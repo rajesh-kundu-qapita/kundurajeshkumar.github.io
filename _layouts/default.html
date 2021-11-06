@@ -46,14 +46,45 @@
             </div>
         </div>    
     </header>
-    <main id="content" class="main-content" role="main">
-        {{ content }}
-    </main>
-    <footer class="footer">
-      <div class="content">
-        <span>©2021 Qapita Corp. All Rights Reserved</span>
-      </div>
-    </footer>
+    <section class="sidebar">
+        <aside class="left-nav">
+          <div class="side-navbar">
+            <div>
+              <nav id="column_left">
+                <ul class="nav nav-list">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="index.html">Intro</a></li>
+                  <li><a href="index.html">Dev Onboarding</a></li>
+                  <li><a href="index.html">Functional Docs</a></li>
+                  <li>
+                    <a class="accordion-heading" data-toggle="collapse" data-target="#submenu1">
+                      <span class="nav-header-primary">Menu Link <span class="pull-right"><b
+                            class="caret"></b></span></span>
+                    </a>
+                    <ul class="nav nav-list collapse" id="submenu1">
+                      <li>
+                        <a class="accordion-heading" data-toggle="collapse" data-target="#submenu2">Sub Menu Link <span
+                            class="pull-right"><b class="caret"></b></span></a>
+                        <ul class="nav nav-list collapse" id="submenu2">
+                          <li><a href="#" title="Title">Sub Sub Menu Link</a></li>
+                          <li><a href="#" title="Title">Sub Sub Menu Link</a></li>
+                          <a class="accordion-heading" data-toggle="collapse" data-target="#submenu2">Sub Menu Link <span
+                              class="pull-right"><b class="caret"></b></span></a>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+            </div>
+          </div>
+        </aside>
+        <main id="content" class="main-content" role="main">
+            {{ content }}
+        </main>
+    </section>
 </body>
 
 </html>
