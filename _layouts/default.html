@@ -51,25 +51,6 @@
                   <li><a href="https://kundurajeshkumar.github.io/intro">Intro</a></li>
                   <li><a href="https://kundurajeshkumar.github.io/dev-onboarding">Dev Onboarding</a></li>
                   <li><a href="https://kundurajeshkumar.github.io/functional">Functional Docs</a></li>
-                  <!-- <li>
-                    <a class="accordion-heading" data-toggle="collapse" data-target="#submenu1">
-                      <span class="nav-header-primary">Menu Link <span class="pull-right"><b
-                            class="caret"></b></span></span>
-                    </a>
-                    <ul class="nav nav-list collapse" id="submenu1">
-                      <li>
-                        <a class="accordion-heading" data-toggle="collapse" data-target="#submenu2">Sub Menu Link <span
-                            class="pull-right"><b class="caret"></b></span></a>
-                        <ul class="nav nav-list collapse" id="submenu2">
-                          <li><a href="#" title="Title">Sub Sub Menu Link</a></li>
-                          <li><a href="#" title="Title">Sub Sub Menu Link</a></li>
-                          <a class="accordion-heading" data-toggle="collapse" data-target="#submenu2">Sub Menu Link <span
-                              class="pull-right"><b class="caret"></b></span></a>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                    -->
                 </ul>
               </nav>
             </div>
@@ -110,6 +91,17 @@
           $('[data-toggle="offcanvas"]').click(function () {
             $('#wrapper').toggleClass('toggled');
           });
+            
+          var url = window.location.href;
+
+          $(".nav-list a").each(function () {
+            // checks if its the same on the address bar
+            if (url == (this.href)) {
+              $(this).closest("li").addClass("active");
+              //for making parent of submenu active
+              $(this).closest("li").parent().parent().addClass("active");
+            }
+          });          
         }
     </script>
 </body>
