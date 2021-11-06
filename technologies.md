@@ -9,9 +9,18 @@
   * [Clean Architecture (Youtube)](https://github.com/ardalis/CleanArchitecture)
   * [Clean Architecture with ASP.NET Core 3.0 • Jason Taylor • GOTO 2019](https://www.youtube.com/watch?v=dK4Yb6-LxAk)
   * [Clean Architecture with ASP.NET Core with Steve "Ardalis" Smith](https://www.youtube.com/watch?v=joNTQy-KXiU)
-4. EventStore
-5. Mongodb
-6. nginx
+
+## Technology Stack
+
+1. Front End
+  * React
+  * Redux
+  * [Ant Design](https://ant.design/)
+2. Backend
+  * .Net Core
+  * Mongodb
+  * EventStore
+  * nginx
 
 ## Architectural Patterns
 
