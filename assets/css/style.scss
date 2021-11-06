@@ -151,6 +151,7 @@ header {
 .main-content {
   padding: 1.5em 2em;
   max-width: 80rem;
+  width: 100vw;
   margin-left: 200px;  
   
   @include large {
@@ -174,6 +175,7 @@ header {
   h2{
     font-size: 1.5rem;
     border-bottom: 1px solid #efefef;
+    padding-bottom: 8px;
   }
   
   h3{
