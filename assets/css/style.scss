@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 :root{
-  --bs-font-sans-serif: Lato, serif !important;
+  --bs-font-sans-serif: open sans, serif !important;
 }
 
 // Headers
@@ -151,6 +151,11 @@ header a {
   
   @include large {
     max-width: 80rem;
+    font-size: 1rem;
+  }
+  
+  @include medium {
+    font-size: 1rem;
   }
   
   h1, h2 {
