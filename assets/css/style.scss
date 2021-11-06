@@ -29,14 +29,14 @@ body {
 }
 
 a{
-  color: $primary;
-  text-decoration: none;
+  color: $primary !important;
+  text-decoration: none !important;
 }
 
 a:hover {
   outline: none !important;
   text-decoration: none !important;
-  color: $primary-light;
+  color: $primary-light !important;
 }
 
 header {
