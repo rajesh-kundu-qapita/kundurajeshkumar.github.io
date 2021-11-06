@@ -20,3 +20,9 @@
 3. Event Sourcing
 4. OAuth 2.0/OpenID Connect
  * [OAuth 2.0 and OpenID Connect (in plain English)](https://www.youtube.com/watch?v=996OiexHze0)
+
+## External Dependencies
+
+1. Currency API
+2. [SignEasy API](https://signeasy.com/api)
+3. S3 bucket for storage
