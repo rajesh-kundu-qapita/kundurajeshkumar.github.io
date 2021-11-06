@@ -140,9 +140,9 @@ header {
 }
 
 .main-content {
-  padding: 20px;
-  margin-top: 70px;
+  padding: 1.5em 2em;
   max-width: 80rem;
+  margin-left: 200px;  
   
   @include large {
     max-width: 80rem;
