@@ -188,6 +188,9 @@ header {
   }
 }
 
+.nav{
+  display: block !important;
+}
 
 .sidebar {
   display: flex;
@@ -206,8 +209,8 @@ header {
     .side-navbar {
       width: 100%;
       
-      ul.nav{
-        display: block;
+      ul.nav-list{
+        list-style: none;
       }      
 
       .nav-list li a {
