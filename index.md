@@ -1,4 +1,4 @@
-# Welcome to Qapita
+## Welcome to Qapita
 
 1. [Intro to Qapita](https://kundurajeshkumar.github.io/intro)
 2. [Qapita product suite](https://kundurajeshkumar.github.io/product-suites)
