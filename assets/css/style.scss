@@ -152,7 +152,8 @@ header {
   padding: 1.5em 2em;
   max-width: 80rem;
   width: 100vw;
-  margin-left: 220px;  
+  margin-left: 220px; 
+  margin-top: 58px; 
   
   @include large {
     max-width: 100%;
@@ -194,7 +195,6 @@ header {
 
 .sidebar {
   display: flex;
-  margin-top: 60px;
   
   .left-nav {
     height: 100vh;
@@ -203,7 +203,8 @@ header {
     min-width: 220px;
     padding-top: 30px;
     background-color: $primary;
-    color: #ffffff;
+    color: #ffffff;    
+  margin-top: 58px;
     
     .side-navbar {
       width: 100%;
