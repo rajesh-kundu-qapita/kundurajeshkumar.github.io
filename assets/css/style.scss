@@ -152,7 +152,7 @@ header {
   padding: 1.5em 2em;
   max-width: 80rem;
   width: 100vw;
-  margin-left: 200px;  
+  margin-left: 220px;  
   
   @include large {
     max-width: 100%;
@@ -200,8 +200,7 @@ header {
     height: 100vh;
     position: fixed;
     max-width: 115px;
-    min-width: 200px;
-    width: 85px;
+    min-width: 220px;
     padding-top: 30px;
     background-color: $primary;
     color: #ffffff;
