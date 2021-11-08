@@ -155,14 +155,14 @@ header {
   margin-left: 220px; 
   margin-top: 58px; 
   
-  @include large {
+  // @include large {
     max-width: 100%;
     font-size: 1rem;
-  }
+  // }
   
-  @include medium {
+  // @include medium {
     font-size: 1rem;
-  }
+  // }
   
   h1, h2, h3 {
     color: #000000;
